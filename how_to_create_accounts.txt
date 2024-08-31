@@ -1,0 +1,9 @@
+1. Vá para -> https://www.emailondeck.com -> consiga o email espúrio $EMAIL
+    2. Crie uma nova conta no twitter.com usando $EMAIL
+    3. Receba o código de confirmação em https://www.emailondeck.com
+
+4. crie o usuário e a senha da conta $USR $PWD
+    4.1 (Não precisa passar por aquela parte de selecionar seus interesses, só o @ da conta basta)
+
+5. adicione a linha $USR:$PWD:$EMAIL: em "accounts.txt"
+6. execute ./refresh_login.sh 
