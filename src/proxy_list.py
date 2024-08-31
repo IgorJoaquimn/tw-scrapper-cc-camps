@@ -7,5 +7,3 @@ def get_random_proxy() -> str:
     rng_proxy   = random.choice(proxy_list)
     http_server = f"http://{rng_proxy}"
     return http_server
-
-print(get_random_proxy())
